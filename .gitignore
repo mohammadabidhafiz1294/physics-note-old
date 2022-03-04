@@ -2,6 +2,7 @@
 .gitignore
 node_modules
 public
+<<<<<<< HEAD
 prof
 tsconfig.tsbuildinfo
 .obsidian
@@ -9,3 +10,10 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+=======
+resources
+.idea
+content/.obsidian
+assets/indices/linkIndex.json
+assets/indices/contentIndex.json
+>>>>>>> 7e0f2e4 (Fix fetchData)
