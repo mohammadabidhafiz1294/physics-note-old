@@ -2,14 +2,14 @@
 tags: [Hermitian-operators, concept-quantum-mechanics, quantum-mechanics/concept]
 ---
 
-### Eigen-values and Eigen-functions 
+### Eigen-values and Eigen-functions
 *Definition:* In quantum mechanics, #eigen-values and #eigen-functions arise from the study of operators, particularly Hermitian operators, which represent physical observables.
 
 **Eigenvalue:** A scalar value associated with an operator that indicates the measurable quantity of a physical observable.
 
 **Eigenfunction:** A non-zero function that, when acted upon by an operator, yields the same function multiplied by the eigenvalue.
 
-*Mathematical Formulation*:<br/>
+*Mathematical Formulation*:
 For an operator $\hat{A}$, the eigenvalue equation is given by:
 $$
 \hat{A} \psi_n(x) = a_n \psi_n(x)
@@ -24,7 +24,7 @@ Where: $\hat{A}$ is the operator (e.g., position, momentum, Hamiltonian).$\psi_n
 
 *Examples*
 
-- **Position Operator:**<br/>
+- **Position Operator:**
    The position operator $\hat{x}$ acts on a wave function $\psi(x)$ as follows:<br/>
    $$\hat{x} \psi(x) = x \psi(x)$$<br/>
    Here, the eigenvalue is the position $x$, and the eigen-function is $\psi(x)$ itself.
@@ -32,13 +32,13 @@ Where: $\hat{A}$ is the operator (e.g., position, momentum, Hamiltonian).$\psi_n
 - **Momentum Operator:**<br/>
    The momentum operator $$\hat{p} = -i\hbar \frac{d}{dx}$$ has eigen-functions of the form:$$\hat{p} \psi_p(x) = p \psi_p(x)$$ where $$\psi_p(x) = e^{ipx/\hbar}$$ is the eigen-function and $p$ is the eigenvalue (momentum).
 
-- **Hamiltonian Operator (for a particle in a one-dimensional infinite potential well)**:<br/>
+- **Hamiltonian Operator (for a particle in a one-dimensional infinite potential well)**:
    The Hamiltonian operator $\hat{H}$ is given by:
    $$
    \hat{H} = -\frac{\hbar^2}{2m} \frac{d^2}{dx^2}
    $$
-   The eigenvalue equation becomes:$$\hat{H} \psi_n(x) = E_n \psi_n(x)$$<br/>
-   The solutions (eigen-functions) are:$$\psi_n(x) = \sqrt{\frac{2}{L}} \sin\left(\frac{n\pi x}{L}\right), \quad n = 1, 2, 3, \ldots$$<br/>
+   The eigenvalue equation becomes:$$\hat{H} \psi_n(x) = E_n \psi_n(x)$$
+   The solutions (eigen-functions) are:$$\psi_n(x) = \sqrt{\frac{2}{L}} \sin\left(\frac{n\pi x}{L}\right), \quad n = 1, 2, 3, \ldots$$
    The corresponding eigenvalues (energy levels) are:$$E_n = \frac{n^2 \hbar^2 \pi^2}{2mL^2}$$
 ### Hermitian Operators
 
@@ -55,14 +55,14 @@ where $A^\dagger$ is the adjoint (or conjugate transpose) of the operator $A$. T
 *Example:* The position operator $\hat{x}$ and the momentum operator $$\hat{p} = -i\hbar \frac{d}{dx}$$ are both Hermitian operators.
 ### Projection Operators
 
-*Definition:* A #projection-operator $P$ is a Hermitian operator that satisfies:<br/>
-$$P^2 = P$$<br/>
+*Definition:* A #projection-operator $P$ is a Hermitian operator that satisfies:
+$$P^2 = P$$
 This means that applying the operator twice is the same as applying it once.
 
 *Properties:*
 - Idempotent: $$P^2 = P$$
-- Hermitian: $$P = P^\dagger$$<br/>
-*Example:* 
+- Hermitian: $$P = P^\dagger$$
+*Example:*
 - Consider a projection operator that projects a vector onto a subspace spanned by a normalized vector $|\phi\rangle$:$$P = |\phi\rangle \langle \phi|$$If you apply this operator to any state $|\psi\rangle$, it projects $|\psi\rangle$ onto the direction of $|\phi\rangle$.
 
 - Consider a three-dimensional vector A, which can be expressed in terms of its components along three orthonormal basis vectors,$ε₁, ε₂, and ε₃$:$$|A⟩ = A₁|ε₁⟩ + A₂|ε₂⟩ + A₃|ε₃⟩$$The projection operator that projects A onto the direction of $ε₁$ is $P̂₁ = |ε₁⟩⟨ε₁|$. Applying $P̂₁ to |A⟩$ gives:$$P̂₁|A⟩ = (|ε₁⟩⟨ε₁|)(A₁|ε₁⟩ + A₂|ε₂⟩ + A₃|ε₃⟩) = A₁|ε₁⟩.$$The result is a vector that lies entirely along the direction of $ε₁$ and has a magnitude equal to the component of A in that direction.
@@ -80,7 +80,7 @@ where $\psi^*(x)$ is the complex conjugate of the wave function.
 - The expectation value is a real number since $A$ is Hermitian.
 - It represents the average value of the observable over many measurements.
 
-Example: 
+Example:
 - For the momentum operator $\hat{p}$, the expectation value is:
 $$
 \langle \hat{p} \rangle = \int \psi^*(x) \left(-i\hbar \frac{d}{dx}\right) \psi(x) \, dx
