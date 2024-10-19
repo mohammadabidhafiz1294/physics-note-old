@@ -5,7 +5,6 @@ tags:
   - quantum-mechanics/concept
 ---
 #### Eigen-values and Eigen-functions 
-
 *Definition:* In quantum mechanics, #eigen-values and #eigen-functions arise from the study of operators, particularly Hermitian operators, which represent physical observables.
 
 **Eigenvalue:** A scalar value associated with an operator that indicates the measurable quantity of a physical observable.
@@ -13,7 +12,6 @@ tags:
 **Eigenfunction:** A non-zero function that, when acted upon by an operator, yields the same function multiplied by the eigenvalue.
 
 *Mathematical Formulation*:
-
 For an operator $\hat{A}$, the eigenvalue equation is given by:
 $$
 \hat{A} \psi_n(x) = a_n \psi_n(x)
@@ -28,7 +26,7 @@ Where: $\hat{A}$ is the operator (e.g., position, momentum, Hamiltonian).$\psi_n
 
 *Examples*
 
-- ** Position Operator:**
+- **Position Operator:**
    The position operator $\hat{x}$ acts on a wave function $\psi(x)$ as follows:
    $$\hat{x} \psi(x) = x \psi(x)$$
    Here, the eigenvalue is the position $x$, and the eigen-function is $\psi(x)$ itself.
