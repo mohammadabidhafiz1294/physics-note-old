@@ -4,6 +4,46 @@ tags:
   - concept-quantum-mechanics
   - quantum-mechanics/concept
 ---
+#### Eigen-values and Eigen-functions 
+
+*Definition:* In quantum mechanics, #eigen-values and #eigen-functions arise from the study of operators, particularly Hermitian operators, which represent physical observables.
+
+**Eigenvalue:** A scalar value associated with an operator that indicates the measurable quantity of a physical observable.
+
+**Eigenfunction:** A non-zero function that, when acted upon by an operator, yields the same function multiplied by the eigenvalue.
+
+*Mathematical Formulation*:
+
+For an operator $\hat{A}$, the eigenvalue equation is given by:
+$$
+\hat{A} \psi_n(x) = a_n \psi_n(x)
+$$
+
+Where: $\hat{A}$ is the operator (e.g., position, momentum, Hamiltonian).$\psi_n(x)$ is the eigen-function corresponding to the eigenvalue $a_n$.
+
+*Properties*
+
+- **Real Eigenvalues:** For Hermitian operators, the eigenvalues are real numbers.
+- **Orthogonal Eigenfunctions:** Eigenfunctions corresponding to different eigenvalues are orthogonal.
+
+*Examples*
+
+- ** Position Operator:**
+   The position operator $\hat{x}$ acts on a wave function $\psi(x)$ as follows:
+   $$\hat{x} \psi(x) = x \psi(x)$$
+   Here, the eigenvalue is the position $x$, and the eigen-function is $\psi(x)$ itself.
+
+- **Momentum Operator:**
+   The momentum operator $$\hat{p} = -i\hbar \frac{d}{dx}$$ has eigen-functions of the form:$$\hat{p} \psi_p(x) = p \psi_p(x)$$ where $$\psi_p(x) = e^{ipx/\hbar}$$ is the eigen-function and $p$ is the eigenvalue (momentum).
+
+- **Hamiltonian Operator (for a particle in a one-dimensional infinite potential well)**:
+   The Hamiltonian operator $\hat{H}$ is given by:
+   $$
+   \hat{H} = -\frac{\hbar^2}{2m} \frac{d^2}{dx^2}
+   $$
+   The eigenvalue equation becomes:$$\hat{H} \psi_n(x) = E_n \psi_n(x)$$
+   The solutions (eigen-functions) are:$$\psi_n(x) = \sqrt{\frac{2}{L}} \sin\left(\frac{n\pi x}{L}\right), \quad n = 1, 2, 3, \ldots$$
+   The corresponding eigenvalues (energy levels) are:$$E_n = \frac{n^2 \hbar^2 \pi^2}{2mL^2}$$
 #### Hermitian Operators
 
 *Definition:* #Hermitian-operators are linear operators that satisfy the condition:
@@ -75,7 +115,9 @@ $$⟨\hat{x}⟩ = ⟨ψ| \hat{x} |ψ⟩ = ∫ψ(x) x ψ(x) dx*$$
 **Hermitian Operators**: Operators with real eigenvalues and orthogonal eigen functions.
 **Projection Operators**: Special Hermitian operators that project states onto subspaces.
 **Expectation Values**: Average values of observables calculated using Hermitian operators.
+**Eigen values:** represent measurable quantities in quantum mechanics.
+**Eigen functions:** describe the state of a system corresponding to those measurements.
 
 ---
 ### Reference
->These concepts are foundational in quantum mechanics and are discussed in detail in the documents you've tagged, such as "Principles of Quantum Mechanics" by R. Shankar and "A Student's Guide to the Schrödinger Equation" by Daniel A. Fleisch. 
+>These concepts are foundational in quantum mechanics and are discussed in detail in the documents you've tagged, such as "Principles of Quantum Mechanics" by R. Shankar, "A Student's Guide to the Schrödinger Equation" by Daniel A. Fleisch &  "Introduction to Quantum Mechanics" by David J. Griffiths.
