@@ -26,10 +26,10 @@ Where: $\hat{A}$ is the operator (e.g., position, momentum, Hamiltonian).$\psi_n
 
 - **Position Operator:**
    The position operator $\hat{x}$ acts on a wave function $\psi(x)$ as follows:<br/>
-   $$\hat{x} \psi(x) = x \psi(x)$$<br/>
+   $$\hat{x} \psi(x) = x \psi(x)$$
    Here, the eigenvalue is the position $x$, and the eigen-function is $\psi(x)$ itself.
 
-- **Momentum Operator:**<br/>
+- **Momentum Operator:**
    The momentum operator $$\hat{p} = -i\hbar \frac{d}{dx}$$ has eigen-functions of the form:$$\hat{p} \psi_p(x) = p \psi_p(x)$$ where $$\psi_p(x) = e^{ipx/\hbar}$$ is the eigen-function and $p$ is the eigenvalue (momentum).
 
 - **Hamiltonian Operator (for a particle in a one-dimensional infinite potential well)**:
@@ -49,6 +49,7 @@ $$
 where $A^\dagger$ is the adjoint (or conjugate transpose) of the operator $A$. This means that the inner product of two states is preserved under the action of the operator.
 
 *Properties:*
+
 - **Real Eigenvalues:** The eigenvalues of a Hermitian operator are always real.
 - **Orthogonal Eigenfunctions:** The eigenfunctions corresponding to different eigenvalues are orthogonal.
 
@@ -60,9 +61,11 @@ $$P^2 = P$$
 This means that applying the operator twice is the same as applying it once.
 
 *Properties:*
+
 - Idempotent: $$P^2 = P$$
 - Hermitian: $$P = P^\dagger$$
 *Example:*
+
 - Consider a projection operator that projects a vector onto a subspace spanned by a normalized vector $|\phi\rangle$:$$P = |\phi\rangle \langle \phi|$$If you apply this operator to any state $|\psi\rangle$, it projects $|\psi\rangle$ onto the direction of $|\phi\rangle$.
 
 - Consider a three-dimensional vector A, which can be expressed in terms of its components along three orthonormal basis vectors,$ε₁, ε₂, and ε₃$:$$|A⟩ = A₁|ε₁⟩ + A₂|ε₂⟩ + A₃|ε₃⟩$$The projection operator that projects A onto the direction of $ε₁$ is $P̂₁ = |ε₁⟩⟨ε₁|$. Applying $P̂₁ to |A⟩$ gives:$$P̂₁|A⟩ = (|ε₁⟩⟨ε₁|)(A₁|ε₁⟩ + A₂|ε₂⟩ + A₃|ε₃⟩) = A₁|ε₁⟩.$$The result is a vector that lies entirely along the direction of $ε₁$ and has a magnitude equal to the component of A in that direction.
@@ -77,10 +80,12 @@ $$
 where $\psi^*(x)$ is the complex conjugate of the wave function.
 
 *Properties:*
+
 - The expectation value is a real number since $A$ is Hermitian.
 - It represents the average value of the observable over many measurements.
 
 Example:
+
 - For the momentum operator $\hat{p}$, the expectation value is:
 $$
 \langle \hat{p} \rangle = \int \psi^*(x) \left(-i\hbar \frac{d}{dx}\right) \psi(x) \, dx
