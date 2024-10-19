@@ -1,9 +1,7 @@
 ---
-tags:
-  - Hermitian-operators
-  - concept-quantum-mechanics
-  - quantum-mechanics/concept
+tags: [Hermitian-operators, concept-quantum-mechanics, quantum-mechanics/concept]
 ---
+
 #### Eigen-values and Eigen-functions 
 *Definition:* In quantum mechanics, #eigen-values and #eigen-functions arise from the study of operators, particularly Hermitian operators, which represent physical observables.
 
@@ -11,7 +9,7 @@ tags:
 
 **Eigenfunction:** A non-zero function that, when acted upon by an operator, yields the same function multiplied by the eigenvalue.
 
-*Mathematical Formulation*:
+*Mathematical Formulation*:<br/>
 For an operator $\hat{A}$, the eigenvalue equation is given by:
 $$
 \hat{A} \psi_n(x) = a_n \psi_n(x)
@@ -26,21 +24,21 @@ Where: $\hat{A}$ is the operator (e.g., position, momentum, Hamiltonian).$\psi_n
 
 *Examples*
 
-- **Position Operator:**
-   The position operator $\hat{x}$ acts on a wave function $\psi(x)$ as follows:
-   $$\hat{x} \psi(x) = x \psi(x)$$
+- **Position Operator:**<br/>
+   The position operator $\hat{x}$ acts on a wave function $\psi(x)$ as follows:<br/>
+   $$\hat{x} \psi(x) = x \psi(x)$$<br/>
    Here, the eigenvalue is the position $x$, and the eigen-function is $\psi(x)$ itself.
 
-- **Momentum Operator:**
+- **Momentum Operator:**<br/>
    The momentum operator $$\hat{p} = -i\hbar \frac{d}{dx}$$ has eigen-functions of the form:$$\hat{p} \psi_p(x) = p \psi_p(x)$$ where $$\psi_p(x) = e^{ipx/\hbar}$$ is the eigen-function and $p$ is the eigenvalue (momentum).
 
-- **Hamiltonian Operator (for a particle in a one-dimensional infinite potential well)**:
+- **Hamiltonian Operator (for a particle in a one-dimensional infinite potential well)**:<br/>
    The Hamiltonian operator $\hat{H}$ is given by:
    $$
    \hat{H} = -\frac{\hbar^2}{2m} \frac{d^2}{dx^2}
    $$
-   The eigenvalue equation becomes:$$\hat{H} \psi_n(x) = E_n \psi_n(x)$$
-   The solutions (eigen-functions) are:$$\psi_n(x) = \sqrt{\frac{2}{L}} \sin\left(\frac{n\pi x}{L}\right), \quad n = 1, 2, 3, \ldots$$
+   The eigenvalue equation becomes:$$\hat{H} \psi_n(x) = E_n \psi_n(x)$$<br/>
+   The solutions (eigen-functions) are:$$\psi_n(x) = \sqrt{\frac{2}{L}} \sin\left(\frac{n\pi x}{L}\right), \quad n = 1, 2, 3, \ldots$$<br/>
    The corresponding eigenvalues (energy levels) are:$$E_n = \frac{n^2 \hbar^2 \pi^2}{2mL^2}$$
 #### Hermitian Operators
 
@@ -57,13 +55,13 @@ where $A^\dagger$ is the adjoint (or conjugate transpose) of the operator $A$. T
 *Example:* The position operator $\hat{x}$ and the momentum operator $$\hat{p} = -i\hbar \frac{d}{dx}$$ are both Hermitian operators.
 ### Projection Operators
 
-*Definition:* A #projection-operator $P$ is a Hermitian operator that satisfies:
-$$P^2 = P$$
+*Definition:* A #projection-operator $P$ is a Hermitian operator that satisfies:<br/>
+$$P^2 = P$$<br/>
 This means that applying the operator twice is the same as applying it once.
 
 *Properties:*
 - Idempotent: $$P^2 = P$$
-- Hermitian: $$P = P^\dagger$$
+- Hermitian: $$P = P^\dagger$$<br/>
 *Example:* 
 - Consider a projection operator that projects a vector onto a subspace spanned by a normalized vector $|\phi\rangle$:$$P = |\phi\rangle \langle \phi|$$If you apply this operator to any state $|\psi\rangle$, it projects $|\psi\rangle$ onto the direction of $|\phi\rangle$.
 
@@ -89,13 +87,14 @@ $$
 $$
 - Suppose, you want to find the expectation value of the position of a particle in a state described by the wave-function $ψ(x)$. The expectation value of the position operator $\hat{x}$ is:$$⟨\hat{x}⟩ = ⟨\psi^*| \hat{x} |ψ⟩ = ∫\psi^*(x) x ψ(x) dx*$$This integral calculates the weighted average of the position $x$, where the weight is given by the probability density $|ψ(x)|²$.
 
-==*Summary*==
-**Hermitian Operators**: Operators with real eigenvalues and orthogonal eigen functions.
-**Projection Operators**: Special Hermitian operators that project states onto subspaces.
-**Expectation Values**: Average values of observables calculated using Hermitian operators.
-**Eigen values:** represent measurable quantities in quantum mechanics.
+==Summary==
+
+**Hermitian Operators**: Operators with real eigenvalues and orthogonal eigen functions.<br/>
+**Projection Operators**: Special Hermitian operators that project states onto subspaces.<br/>
+**Expectation Values**: Average values of observables calculated using Hermitian operators.<br/>
+**Eigen values:** represent measurable quantities in quantum mechanics.<br/>
 **Eigen functions:** describe the state of a system corresponding to those measurements.
 
 ---
 ### Reference
->These concepts are foundational in quantum mechanics and are discussed in detail in the documents you've tagged, such as "Principles of Quantum Mechanics" by R. Shankar, "A Student's Guide to the Schrödinger Equation" by Daniel A. Fleisch &  "Introduction to Quantum Mechanics" by David J. Griffiths.
+> These concepts are foundational in quantum mechanics and are discussed in detail in the documents you've tagged, such as "Principles of Quantum Mechanics" by R. Shankar, "A Student's Guide to the Schrödinger Equation" by Daniel A. Fleisch & "Introduction to Quantum Mechanics" by David J. Griffiths.
