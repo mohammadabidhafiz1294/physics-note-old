@@ -289,18 +289,18 @@ input[type="checkbox"] {
     border-color: var(--secondary);
     background-color: var(--secondary);
 
-    &::after {
-      content: "";
-      position: absolute;
-      left: 4px;
-      top: 1px;
-      width: 4px;
-      height: 8px;
-      display: block;
-      border: solid var(--light);
-      border-width: 0 2px 2px 0;
-      transform: rotate(45deg);
-    }
+    // &::after {
+    //   content: "";
+    //   position: absolute;
+    //   left: 4px;
+    //   top: 1px;
+    //   width: 4px;
+    //   height: 8px;
+    //   display: block;
+    //   border: solid var(--light);
+    //   border-width: 0 2px 2px 0;
+    //   transform: rotate(45deg);
+    // }
   }
 }
 

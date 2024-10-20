@@ -64,6 +64,7 @@ This means that applying the operator twice is the same as applying it once.
 
 - Idempotent: $$P^2 = P$$
 - Hermitian: $$P = P^\dagger$$
+
 *Example:*
 
 - Consider a projection operator that projects a vector onto a subspace spanned by a normalized vector $|\phi\rangle$:$$P = |\phi\rangle \langle \phi|$$If you apply this operator to any state $|\psi\rangle$, it projects $|\psi\rangle$ onto the direction of $|\phi\rangle$.
