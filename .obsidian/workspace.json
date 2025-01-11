@@ -13,17 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Quantum-Mechanics/Concept behind Quantum Mechanics.md",
+                "file": "PHYSICS/4 Y/405 Medical & Radiation Physics/Nuclear Medicine.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Concept behind Quantum Mechanics"
+              "title": "Nuclear Medicine"
             }
           }
-        ],
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"
@@ -79,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d002526171d1c03c",
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/Quantum-Mechanics/Concept behind Quantum Mechanics.md",
+                "file": "PHYSICS/4 Y/405 Medical & Radiation Physics/Nuclear Medicine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Concept behind Quantum Mechanics"
+              "title": "Backlinks for Nuclear Medicine"
             }
           },
           {
@@ -151,10 +151,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/Quantum-Mechanics/Concept behind Quantum Mechanics.md"
+                "file": "PHYSICS/4 Y/405 Medical & Radiation Physics/Nuclear Medicine.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Concept behind Quantum Mechanics"
+              "title": "Outline of Nuclear Medicine"
             }
           }
         ],
@@ -162,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,8 +178,9 @@
   },
   "active": "0427d9f309dda379",
   "lastOpenFiles": [
-    "CODE_OF_CONDUCT.md",
     "content/Quantum-Mechanics/Concept behind Quantum Mechanics.md",
+    "PHYSICS/4 Y/405 Medical & Radiation Physics/Nuclear Medicine.md",
+    "CODE_OF_CONDUCT.md",
     "content/Quantum-Mechanics/REL. Bet'n the Hamiltonian operator and the total energy of a quantum system.md",
     "public/404.html",
     "public/IMAGES/schottky-defect.jpg",
@@ -221,7 +223,6 @@
     "PHYSICS/3 Y/RELATIVITY (PH-308)/Background (CH-1).md",
     "PHYSICS/3 Y/STATISTICAL MECHANICS (PH-307)/Fermi-dirac Distribution (CH-3).md",
     "README.md",
-    "PHYSICS/3 Y/MathJAX note samples.md",
     "PHYSICS/IMAGES/Geiger-muller tube.png",
     "Untitled.canvas"
   ]
