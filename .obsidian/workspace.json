@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PHYSICS/4 Y/405 Medical & Radiation Physics/Nuclear Medicine.md",
+                "file": "content/Medical Physics/Nuclear Medicine & Radiation Therapy.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nuclear Medicine"
+              "title": "Nuclear Medicine & Radiation Therapy"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d002526171d1c03c",
@@ -132,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PHYSICS/4 Y/405 Medical & Radiation Physics/Nuclear Medicine.md",
+                "file": "PHYSICS/4 Y/405 Medical & Radiation Physics/Nuclear Medicine & Radiation Therapy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +141,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Nuclear Medicine"
+              "title": "Backlinks for Nuclear Medicine & Radiation Therapy"
             }
           },
           {
@@ -151,10 +150,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PHYSICS/4 Y/405 Medical & Radiation Physics/Nuclear Medicine.md"
+                "file": "PHYSICS/4 Y/405 Medical & Radiation Physics/Nuclear Medicine & Radiation Therapy.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Nuclear Medicine"
+              "title": "Outline of Nuclear Medicine & Radiation Therapy"
             }
           }
         ],
@@ -178,8 +177,13 @@
   },
   "active": "0427d9f309dda379",
   "lastOpenFiles": [
+    "PHYSICS/4 Y/405 Medical & Radiation Physics/Nuclear Medicine & Radiation Therapy (CH-3).md",
+    "content/Medical Physics/Nuclear Medicine & Radiation Therapy.md",
+    "content/Medical Physics",
+    "PHYSICS/4 Y/405 Medical & Radiation Physics/Isodse-curve.png",
+    "500px.md",
+    "Pasted image 20250111205245.jpg",
     "content/Quantum-Mechanics/Concept behind Quantum Mechanics.md",
-    "PHYSICS/4 Y/405 Medical & Radiation Physics/Nuclear Medicine.md",
     "CODE_OF_CONDUCT.md",
     "content/Quantum-Mechanics/REL. Bet'n the Hamiltonian operator and the total energy of a quantum system.md",
     "public/404.html",
@@ -192,7 +196,6 @@
     "public/IMAGES/frenkel-defect.jpg",
     "public/IMAGES/ac-vs-dc-coupling-in-capacitor.png",
     "public/IMAGES",
-    "public/static/icon.png",
     "public/static/contentIndex.json",
     "public/static",
     "public/index.xml",
@@ -200,7 +203,6 @@
     "public/tags/quantum-mechanics/schrödinger-equation.html",
     "public/tags/physics/hamiltonian-Operator.html",
     "public/tags/TISE.html",
-    "public/tags/index.html",
     "content/Quantum Computing/GATEs/Hadamard Gate.md",
     "content/Quantum Computing/Hadamard Gate.md",
     "content/Quantum Computing/GROVER's Algorithm.md",
@@ -220,10 +222,6 @@
     "PHYSICS/3 Y/PRACTICAL(PH-310)/A Phase Shift Oscillator.md",
     "PHYSICS/3 Y/RELATIVITY (PH-308)/General Relativity.md",
     "PHYSICS/3 Y/RELATIVITY (PH-308)/Relativistic kinematics.md",
-    "PHYSICS/3 Y/RELATIVITY (PH-308)/Background (CH-1).md",
-    "PHYSICS/3 Y/STATISTICAL MECHANICS (PH-307)/Fermi-dirac Distribution (CH-3).md",
-    "README.md",
-    "PHYSICS/IMAGES/Geiger-muller tube.png",
     "Untitled.canvas"
   ]
 }
