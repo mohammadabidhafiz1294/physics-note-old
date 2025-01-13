@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Medical Physics/Nuclear Medicine & Radiation Therapy.md",
+                "file": "PHYSICS/4 Y/407 Reactor Physics/Control of Nuclear Reactors(CH-5).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nuclear Medicine & Radiation Therapy"
+              "title": "Control of Nuclear Reactors(CH-5)"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:quantum-mechanics/schrödinger-equation",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,14 +150,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PHYSICS/4 Y/405 Medical & Radiation Physics/Nuclear Medicine & Radiation Therapy.md"
+                "file": "PHYSICS/4 Y/407 Reactor Physics/Control of Nuclear Reactors(CH-5).md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Nuclear Medicine & Radiation Therapy"
+              "title": "Outline of Control of Nuclear Reactors(CH-5)"
+            }
+          },
+          {
+            "id": "1d1862ac6fbf674f",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -172,13 +182,16 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "canvas:Create new canvas": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
   "active": "0427d9f309dda379",
   "lastOpenFiles": [
-    "PHYSICS/4 Y/405 Medical & Radiation Physics/Nuclear Medicine & Radiation Therapy (CH-3).md",
+    "PHYSICS/4 Y/407 Reactor Physics/Reactor Fuels (CH-7).md",
+    "PHYSICS/4 Y/407 Reactor Physics/Control of Nuclear Reactors(CH-5).md",
     "content/Medical Physics/Nuclear Medicine & Radiation Therapy.md",
+    "PHYSICS/4 Y/405 Medical & Radiation Physics/Nuclear Medicine & Radiation Therapy (CH-3).md",
     "content/Medical Physics",
     "PHYSICS/4 Y/405 Medical & Radiation Physics/Isodse-curve.png",
     "500px.md",
@@ -221,7 +234,6 @@
     "PHYSICS/3 Y/PRACTICAL(PH-310)/Single stage transistor amplifier.md",
     "PHYSICS/3 Y/PRACTICAL(PH-310)/A Phase Shift Oscillator.md",
     "PHYSICS/3 Y/RELATIVITY (PH-308)/General Relativity.md",
-    "PHYSICS/3 Y/RELATIVITY (PH-308)/Relativistic kinematics.md",
     "Untitled.canvas"
   ]
 }
