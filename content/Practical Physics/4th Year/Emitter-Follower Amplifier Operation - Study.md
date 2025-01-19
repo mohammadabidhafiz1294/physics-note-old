@@ -88,7 +88,7 @@ The **gain-bandwidth product (GBP)** is a figure of merit that quantifies the re
 
 In an emitter-follower:
 
-- GBP=Av×Bandwidth\text{GBP} = A_v \times \text{Bandwidth} Since Av≈1A_v \approx 1, the **gain-bandwidth product** is approximately equal to the circuit's bandwidth.
+- $GBP=Av×Bandwidth\text{GBP} = A_v \times \text{Bandwidth}$ Since $Av≈1A_v \approx 1$, the **gain-bandwidth product** is approximately equal to the circuit's bandwidth.
 
 This wide bandwidth makes the emitter-follower ideal for high-frequency applications such as buffering in radio-frequency systems or video signal processing.
 
@@ -114,21 +114,21 @@ The emitter-follower's **high input impedance** and **low output impedance** mak
 
 The emitter-follower is also called a **common-collector (CC)** amplifier because:
 
-- The **collector terminal** of the BJT is connected to a constant voltage (usually the supply voltage VCCV_{CC}) and serves as a common node for both the input and output circuits.
+- The **collector terminal** of the BJT is connected to a constant voltage (usually the supply voltage $V_{CC}$) and serves as a common node for both the input and output circuits.
 
 #### **Operation Explanation**:
 
 1. **Input at the Base**:
     
-    - The input voltage VinV_{in} is applied to the base-emitter junction.
+    - The input voltage $V_{in}$ is applied to the base-emitter junction.
 2. **Output at the Emitter**:
     
-    - The output voltage VoutV_{out} is taken from the emitter with respect to ground.
+    - The output voltage $V_{out}$ is taken from the emitter with respect to ground.
 3. **Voltage Follower**:
     
-    - The emitter voltage VoutV_{out} follows the base voltage VinV_{in}, minus the base-emitter voltage drop (VBEV_{BE}), typically 0.6–0.7 V.
+    - The emitter voltage VoutV_{out} follows the base voltage VinV_{in}, minus the base-emitter voltage drop ($V_{BE}$), typically 0.6–0.7 V.
 4. **Signal Flow**:
     
-    - The signal current flows from the base into the emitter through the load resistor RER_E, with the collector acting as a supply node. The collector current ensures the emitter current is amplified, providing high current gain.
+    - The signal current flows from the base into the emitter through the load resistor $R_E$, with the collector acting as a supply node. The collector current ensures the emitter current is amplified, providing high current gain.
 
 ---
