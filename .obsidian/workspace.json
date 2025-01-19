@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PHYSICS/4 Y/407 Reactor Physics/Energy Removal (CH-6).md",
+                "file": "PHYSICS/4 Y/406 Crystallography  & X-ray spectroscopy/Geometry of Crystalline State (CH-1).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Energy Removal (CH-6)"
+              "title": "Geometry of Crystalline State (CH-1)"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d002526171d1c03c",
@@ -188,15 +189,22 @@
   },
   "active": "409c4c1895d7d1bf",
   "lastOpenFiles": [
-    "PHYSICS/4 Y/407 Reactor Physics/Control of Nuclear Reactors (CH-5).md",
+    "PHYSICS/4 Y/406 Crystallography  & X-ray spectroscopy/List S.E. table.png",
+    "PHYSICS/4 Y/406 Crystallography  & X-ray spectroscopy/symmetry element diagonal unit cell.png",
+    "PHYSICS/4 Y/406 Crystallography  & X-ray spectroscopy/Geometry of Crystalline State (CH-1).md",
+    "PHYSICS/4 Y/406 Crystallography  & X-ray spectroscopy/Inversion Axes.png",
+    "Pasted image 20250111205245.jpg",
+    "PHYSICS/4 Y/406 Crystallography  & X-ray spectroscopy/Rotation axes.png",
+    "PHYSICS/4 Y/406 Crystallography  & X-ray spectroscopy/Mirror plane.png",
+    "PHYSICS/4 Y/406 Crystallography  & X-ray spectroscopy/Centre of Symmetry.png",
     "PHYSICS/4 Y/407 Reactor Physics/Energy Removal (CH-6).md",
+    "PHYSICS/4 Y/407 Reactor Physics/Control of Nuclear Reactors (CH-5).md",
     "PHYSICS/4 Y/407 Reactor Physics/Reactor Fuels (CH-7).md",
     "content/Medical Physics/Nuclear Medicine & Radiation Therapy.md",
     "PHYSICS/4 Y/405 Medical & Radiation Physics/Nuclear Medicine & Radiation Therapy (CH-3).md",
     "content/Medical Physics",
     "PHYSICS/4 Y/405 Medical & Radiation Physics/Isodse-curve.png",
     "500px.md",
-    "Pasted image 20250111205245.jpg",
     "content/Quantum-Mechanics/Concept behind Quantum Mechanics.md",
     "CODE_OF_CONDUCT.md",
     "content/Quantum-Mechanics/REL. Bet'n the Hamiltonian operator and the total energy of a quantum system.md",
@@ -204,11 +212,6 @@
     "public/IMAGES/schottky-defect.jpg",
     "public/IMAGES/Geiger-muller-tube.png",
     "public/IMAGES/lattice-site-vs-interstitial-site.png",
-    "public/IMAGES/interstial-vs-vacancy-diffusion-OPT.svg",
-    "public/IMAGES/BJT-terminals.png",
-    "public/IMAGES/geiger-muller-counter.jpg",
-    "public/IMAGES/frenkel-defect.jpg",
-    "public/IMAGES/ac-vs-dc-coupling-in-capacitor.png",
     "public/IMAGES",
     "public/static/contentIndex.json",
     "public/static",
@@ -232,8 +235,6 @@
     "PHYSICS/3 Y/PRACTICAL(PH-310)/Low pass filter.md",
     "PHYSICS/3 Y/PRACTICAL(PH-310)/High Pass Filter.md",
     "PHYSICS/3 Y/PRACTICAL(PH-310)/FET characteristics.md",
-    "PHYSICS/3 Y/PRACTICAL(PH-310)/Single stage transistor amplifier.md",
-    "PHYSICS/3 Y/PRACTICAL(PH-310)/A Phase Shift Oscillator.md",
     "Untitled.canvas"
   ]
 }
