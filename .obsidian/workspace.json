@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PHYSICS/4 Y/406 Crystallography  & X-ray spectroscopy/Geometry of Crystalline State (CH-1).md",
+                "file": "content/Practical Physics/4th Year/Emitter-Follower Amplifier Operation - Study.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Geometry of Crystalline State (CH-1)"
+              "title": "Emitter-Follower Amplifier Operation - Study"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d002526171d1c03c",
@@ -189,9 +188,11 @@
   },
   "active": "409c4c1895d7d1bf",
   "lastOpenFiles": [
+    "content/Practical Physics/4th Year/Logic Gates.md",
+    "content/Practical Physics/4th Year/Emitter-Follower Amplifier Operation - Study.md",
+    "PHYSICS/4 Y/406 Crystallography  & X-ray spectroscopy/Geometry of Crystalline State (CH-1).md",
     "PHYSICS/4 Y/406 Crystallography  & X-ray spectroscopy/List S.E. table.png",
     "PHYSICS/4 Y/406 Crystallography  & X-ray spectroscopy/symmetry element diagonal unit cell.png",
-    "PHYSICS/4 Y/406 Crystallography  & X-ray spectroscopy/Geometry of Crystalline State (CH-1).md",
     "PHYSICS/4 Y/406 Crystallography  & X-ray spectroscopy/Inversion Axes.png",
     "Pasted image 20250111205245.jpg",
     "PHYSICS/4 Y/406 Crystallography  & X-ray spectroscopy/Rotation axes.png",
@@ -211,7 +212,6 @@
     "public/404.html",
     "public/IMAGES/schottky-defect.jpg",
     "public/IMAGES/Geiger-muller-tube.png",
-    "public/IMAGES/lattice-site-vs-interstitial-site.png",
     "public/IMAGES",
     "public/static/contentIndex.json",
     "public/static",
@@ -234,7 +234,6 @@
     "PHYSICS/3 Y/BASIC QUANTUM MECHANICS (PH-302)/One-dimensional Potential Barriers.md",
     "PHYSICS/3 Y/PRACTICAL(PH-310)/Low pass filter.md",
     "PHYSICS/3 Y/PRACTICAL(PH-310)/High Pass Filter.md",
-    "PHYSICS/3 Y/PRACTICAL(PH-310)/FET characteristics.md",
     "Untitled.canvas"
   ]
 }
